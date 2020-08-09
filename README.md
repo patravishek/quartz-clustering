@@ -21,3 +21,11 @@
 ## Managing the thread counts can be done using following way
 
 `quartz.threadPool.threadCount = 10`
+
+## Pre-configuration
+
+Please update the database connection string path in `quartz.dataSource.myDS.connectionString` of `quartz.config`
+
+Next create a database and execute the following file
+
+`https://github.com/patravishek/quartz-clustering/blob/master/QuartzHostedService/Database/tables_quartz.sql`
